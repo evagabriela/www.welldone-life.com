@@ -1,120 +1,188 @@
 <!DOCTYPE html>
-<!-- saved from url=(0059)http://twitter.github.com/bootstrap/examples/carousel.html# -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <title>Well Done Life</title>
+    <title>test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="Shortcut Icon" href="Images/classyturquose.png"/>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <style type="text/css">
-      @import url(http://www.google.com/cse/api/branding.css);
-    </style>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-  <style id="holderjs-style" type="text/css">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style></head>
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
 
   <body>
 
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-<!-- NAVBAR
-    ================================================== -->
-    <div class="navbar-wrapper">
-      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
-      <div class="container">
+        <a class="brand" href="index.html">Well Done Life</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="AboutChris.html">Introduction to Chris</a></li>
+              <li><a href="contact.html">Contact Chris</a></li>
+              <li><a href="why.html">Why Chris?</a></li>
+              <li><a href="http://cwarnky.wordpress.com/">Blog</a></li>
 
-        <div class="navbar navbar-inverse">
-          <div class="navbar-inner">
-            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="/">Well Done Life</a>
-            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
-            <div class="nav-collapse collapse">
-              <ul class="nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="about1.html">About</a></li>
-                <li><a href="http://cwarnky.wordpress.com/">Blog</a></li>
-                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-                <li class="dropdown">
-                  <a href="./index_files/index.html" class="dropdown-toggle" data-toggle="dropdown">Life Coaching <b class="caret"></b></a>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Life Coaching<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                  <li><a href="LifeCoach.html">What is a Life Coach</a></li>
-                    <li><a href="LifeCoachExperience.html">Life Coaching Experience</a></li>
-                    <li><a href="LifeCoachStandardCoachingSession.html">Standard Coaching Session</a></li>
-                    <li><a href="Testimonials.html">Testimonials</a></li>
+                    <li><a href="lifecoach.html">What is a Life Coach</a></li>
+                    <li><a href="coachingexperience.html">The Coaching Experience</a></li>
+                    <li><a href="LifeAssesmentWheel.html">Life Assessment Wheel</a></li>
                     <li class="divider"></li>
-                  
+                    <li class="nav-header"></li>
+                    <li><a href="recommendation.html">Recommendations for Chris</a></li>
+                    
                   </ul>
                 </li>
               </ul>
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
-
+      
       </div> <!-- /.container -->
-    </div><!-- /.navbar-wrapper -->
 
-    <!-- Carousel
-    ================================================== -->
-      <div class="content">
-          <img src="Pics/ContentBackgroundLifeCoach.jpg" alt="">
+<br>
+<!--Main Content -->
+<div class="container">
+<div class="hero-unit">
+  <h1>What is a Life Coach?</h1>
+  <br>
+  <p><a href="#" class="btn btn-success btn-large">Contact Me »</a></p>
+<hr>
+  <!--row columns -->
+  <div class="row-fluid">
+    <div class="span6">
+          <h2>A Life Coach:</h2>
+          <ul>
+            <li> <p>Is a partner for a period of time to come alongside you to help you get to where you would like to go.</p></li>
+            <li> <p>Is more focused on your growth and success than you are.</p></li>
+
+            <li> <p>Listens and believes in you, your value, and your potential in life (Believes in you before you believe in yourself)</p></li>
+
+             <li> <p>Helps you discover your potential and helps you move forward with it</p></li>
+
+             <li><p>Helps you see and feel your dreams and then helps you practically move toward them.</p></li>
+
+          </ul>
+        </div>
+<br>
+        <div class="span6">
+         <img src="Images/image1.jpg" width="450px">
         </div>
 
-    </div><!-- /.carousel -->
+
+    <div class="span6"><br>
+          <h2>Life Coaches Can Be of Great Service to People That:</h2>
+
+          <ul>
+            <li> <p>Invest in themselves.</p></li>
+            <li> <p>Take responsibility for their lives.</p></li>
+
+            <li> <p>Work hard for results every week.</p></li>
+
+             <li> <p>Are successful and yet feel unfulfilled or are dissatisfied with some aspect of their life</p></li>
+                <ul>
+                  <li><p>Feel stuck or frozen in life, and want to move on or through a situation and feel good about their life contribution and progress.
+</p></li>
+                </ul>
+             
+
+          </ul>
+
+       </div>
+
+       <div class="span4">
+        <br>
+          <h2>A Life Coach Can Help You:</h2>
+
+          <ul>
+            <li> <p>Become a stronger person.</p></li>
+            <li> <p>Go somewhere you have not been able to get to on your own.</p></li>
+
+            <li> <p>Get results faster.</p></li>
+
+             <li> <p>Re-ignite your hope, drive, and belief in yourself, your future, and your dreams.</p></li>
+          </ul>
+
+       </div>
+       
+        <div class="span6">
+          <br>
+         <img src="Images/image2.jpg" width="350px">
+        </div>
 
 
-      <!-- START THE FEATURETTES -->
+        <div class="span4">
+          <br>
+          <h2>A Life Coach Is Not:</h2>
+          <p>A person who focuses on addressing past issues or that gives you advice.  Not like a: teacher, trainer, facilitator, counselor, therapist, consultant, advisor, mentor, or good friend.</p>
+        </div>
 
-      <div class="featurette">
-        <center><h1><class="featurette-heading"> <span class="muted">"Move forward in an area where you have felt stuck"</span></h1></center>
-      </div>
-
-      <!-- /END THE FEATURETTES -->
+       
+    
+    </div>  
 
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="LifeCoach.html">Back to top</a></p>
-        <center> <a href="./index_files/index.html">© 2013 Well Done Life Privacy</a></center>
+
+        <hr>
+</div>
+        <footer>
+      <center><p>© Well Done Life 2013</p></center>  
       </footer>
 
-    </div><!-- /.container -->
+      </div>       
 
 
+
+
+       
+      
+</div>
+    </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./index_files/jquery.js"></script>
-    <script src="./index_files/bootstrap-transition.js"></script>
-    <script src="./index_files/bootstrap-alert.js"></script>
-    <script src="./index_files/bootstrap-modal.js"></script>
-    <script src="./index_files/bootstrap-dropdown.js"></script>
-    <script src="./index_files/bootstrap-scrollspy.js"></script>
-    <script src="./index_files/bootstrap-tab.js"></script>
-    <script src="./index_files/bootstrap-tooltip.js"></script>
-    <script src="./index_files/bootstrap-popover.js"></script>
-    <script src="./index_files/bootstrap-button.js"></script>
-    <script src="./index_files/bootstrap-collapse.js"></script>
-    <script src="./index_files/bootstrap-carousel.js"></script>
-    <script src="./index_files/bootstrap-typeahead.js"></script>
-    <script>
-      !function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-      }(window.jQuery)
-    </script>
-    <script src="./index_files/holder.js"></script>
-  
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
 
-</body></html>
+  </body>
+</html>
+
